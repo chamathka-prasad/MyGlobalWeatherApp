@@ -38,6 +38,8 @@
 
 .back{
     background-image: url("../resources/img/background.png");
+    
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-size:auto; */
 }

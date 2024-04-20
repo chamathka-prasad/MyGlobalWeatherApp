@@ -163,25 +163,8 @@
 
         </div>
     </div>
-    <div class="row mt-5" style="margin-bottom: 250px;">
-        <div class="col-12 text-center">
-            <table class="table table-striped table-hover">
-                <thead class="bg-body-secondary">
-                    <th>Time</th>
-                    <th>Pressure/Humidity/Visibility</th>
-                    <th>Temp</th>
-                    <th>Description</th>
-
-                </thead>
-                <tbody id="tableLoad">
 
 
-                </tbody>
-            </table>
-        </div>
-
-    </div>
-    </div>
 
     <script src="js/script.js"></script>
 </body>
