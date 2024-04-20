@@ -43,7 +43,7 @@ function turnOn() {
 
             if (cit != null) {
 
-                console.log("set data to front");
+                // console.log("set data to front");
                 setDataToFront(JSON.parse(cit), true);
 
 
@@ -55,7 +55,7 @@ function turnOn() {
 
 
         } catch (error) {
-            console.log(error);
+            // console.log(error);
             exTractData(true);
 
 
@@ -117,8 +117,8 @@ function getDataFromOpenWeather(array, statBoolean) {
 
             localStorage.setItem("city", JSON.stringify(weather));
 
-            console.log(new Date(JSON.parse(localStorage.getItem("city"))[0].dt * 1000).toLocaleTimeString() + " after add");
-            console.log("wada........");
+            // console.log(new Date(JSON.parse(localStorage.getItem("city"))[0].dt * 1000).toLocaleTimeString() + " after add");
+            // console.log("wada........");
 
 
         } catch (error) {
@@ -134,7 +134,7 @@ function getDataFromOpenWeather(array, statBoolean) {
 
             setDataToFront(weather);
 
-            console.log("data trueeeeeeeeeeeee");
+            // console.log("data trueeeeeeeeeeeee");
             // setInterval(function () { setDataToFront(weather) }, 60000 * 5);
         }
 
@@ -168,7 +168,7 @@ function setDataToFront(weathers) {
 
 
 
-        console.log(new Date(element.dt * 1000).toLocaleTimeString() + " print date");
+        // console.log(new Date(element.dt * 1000).toLocaleTimeString() + " print date");
         var first = document.createElement("div");
 
         if (index == 0 || index % 2 != 0) {
