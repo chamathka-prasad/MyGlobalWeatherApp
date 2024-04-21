@@ -11,7 +11,7 @@
 </head>
 
 <body class="back" onload="fullView(<?php echo $_GET['id'] ?>)">
-    <div class="container-fluid">
+    <div class="container-fluid" style="height: 100vh;">
         <div class="row">
             <div class="col-12 mt-5">
                 <div class="row">

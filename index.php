@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="back" onload="turnOn()">
-    <div class="container-fluid">
+<body onload="turnOn()" class="back">
+    <div class="container-fluid" style="height: 100%;">
         <div class="row ">
             <div class="col-12 mt-5">
                 <div class="row">
